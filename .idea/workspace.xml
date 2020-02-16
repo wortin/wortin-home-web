@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e5878e0-b9bf-41a8-add5-0203bd00be18" name="Default Changelist" comment="feat: 添加github源码网址。">
+    <list default="true" id="2e5878e0-b9bf-41a8-add5-0203bd00be18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/data.source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581620374255</updated>
       <workItem from="1581620375426" duration="7558000" />
-      <workItem from="1581673687655" duration="45332000" />
+      <workItem from="1581673687655" duration="46427000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 完成我丁世界门户网站的创建。">
       <created>1581873187649</created>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581874329904</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 添加github源码网址和将创世纪时间的？改成时间待定。">
+      <created>1581874606220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581874606220</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 完成我丁世界门户网站的创建。" />
     <MESSAGE value="feat: 简单描述README文案。" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 简单描述README文案。" />
+    <MESSAGE value="feat: 添加github源码网址和将创世纪时间的？改成时间待定。" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加github源码网址和将创世纪时间的？改成时间待定。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="144" key="#Notifications" timestamp="1581873591498">
@@ -132,18 +141,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="978" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581797316469" />
-    <state x="465" y="67" key="CommitChangelistDialog2" timestamp="1581874551858">
+    <state x="465" y="67" key="CommitChangelistDialog2" timestamp="1581874606149">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="465" y="67" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1581874551858" />
+    <state x="465" y="67" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1581874606149" />
     <state x="678" y="379" key="Github.ShareDialog" timestamp="1581873533185">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="678" y="379" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581873533185" />
-    <state x="483" y="262" key="Vcs.Push.Dialog.v2" timestamp="1581874337019">
+    <state x="483" y="262" key="Vcs.Push.Dialog.v2" timestamp="1581874611479">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="483" y="262" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1581874337019" />
+    <state x="483" y="262" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1581874611479" />
     <state x="1002" y="587" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581871775725">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

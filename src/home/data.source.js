@@ -8,6 +8,7 @@ import rank1 from '../img/rank1.svg';
 import rank2 from '../img/rank2.svg';
 import rank3 from '../img/rank3.svg';
 import rank4 from '../img/rank4.svg';
+import {showNotSupportInfo} from "./utils";
 
 // 导航
 export const NavDataSource = {
@@ -89,6 +90,7 @@ export const BannerDataSource = {
                     href: '#',
                     className: 'banner5-button',
                     type: 'primary',
+                    onClick: showNotSupportInfo,
                     children: '开始冒险',
                 },
             },
@@ -127,7 +129,7 @@ export const WortinRecommendDataSource = {
                         {
                             name: 'content',
                             className: 'teams1-job',
-                            children: '2020年02月04日',
+                            children: '敬请期待',
                         },
                         {
                             name: 'content1',
@@ -443,8 +445,8 @@ export const FooterDataSource = {
                 title: {children: '产品'},
                 childWrapper: {
                     children: [
-                        {name: 'link0', href: '#', children: '世界编年史 —— 更新记录'},
-                        {name: 'link1', href: '#', children: '世界冒险指南 —— 使用指南'},
+                        {name: 'link0', href: '#.', children: '世界编年史 —— 更新记录', onClick: showNotSupportInfo},
+                        {name: 'link1', href: '#.', children: '世界冒险指南 —— 使用指南', onClick: showNotSupportInfo},
                         {
                             name: 'link2',
                             href: 'https://github.com/wortin/wortin-home-web',
@@ -462,8 +464,8 @@ export const FooterDataSource = {
                 title: {children: '关于'},
                 childWrapper: {
                     children: [
-                        {href: '#', name: 'link0', children: 'FAQ'},
-                        {href: '#', name: 'link1', children: '联系我'},
+                        {href: '#.', name: 'link0', children: 'FAQ', onClick: showNotSupportInfo},
+                        {href: '#.', name: 'link1', children: '联系我', onClick: showNotSupportInfo},
                     ],
                 },
             },
