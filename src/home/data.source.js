@@ -368,7 +368,7 @@ export const WortinRecordsDataSource = {
                             'https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg',
                     },
                     name: {className: 'block-name', children: '完善阶段'},
-                    post: {className: 'block-post', children: '2020年03月 - ？'},
+                    post: {className: 'block-post', children: '2020年03月 - 时间待定'},
                     time: {className: 'block-time', children: '浙江杭州'},
                     title: {className: 'block-title', children: '传说：完美主义的痛'},
                     content: {
@@ -395,7 +395,7 @@ export const WortinRecordsDataSource = {
                             'https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg',
                     },
                     name: {className: 'block-name', children: '沉淀阶段'},
-                    post: {className: 'block-post', children: '？ - 2060年6月'},
+                    post: {className: 'block-post', children: '时间待定 - 2040年6月'},
                     time: {className: 'block-time', children: '我丁世界'},
                     title: {className: 'block-title', children: '王者：对未来的一些期待'},
                     content: {
@@ -445,7 +445,12 @@ export const FooterDataSource = {
                     children: [
                         {name: 'link0', href: '#', children: '世界编年史 —— 更新记录'},
                         {name: 'link1', href: '#', children: '世界冒险指南 —— 使用指南'},
-                        {name: 'link2', href: '#', children: '世界之源 —— 网站源码Github'},
+                        {
+                            name: 'link2',
+                            href: 'https://github.com/wortin/wortin-home-web',
+                            target: '_blank',
+                            children: '世界之源 —— 网站源码Github'
+                        },
                     ],
                 },
             },
@@ -472,7 +477,7 @@ export const FooterDataSource = {
                     children: [
                         {
                             href: 'https://github.com/toFindMore/OJ_Practice',
-                            target:'_blank',
+                            target: '_blank',
                             name: 'link0',
                             children: '周健的算法笔记Github'
                         },
